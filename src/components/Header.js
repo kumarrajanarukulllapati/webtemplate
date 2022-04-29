@@ -38,7 +38,7 @@ class HeaderComponent extends Component {
                             <p>architecture,</p>
                             <p>landscape,</p>
                             <p>interiors </p> */}
-                            <button onClick={this.handleChange}> learn more</button>
+                            <button style={{ backgroundColor: '#1f2851', color: 'white', border: '#1f2851', borderRadius: '12px', padding: '7px 15px', width: "100px" }}> learn more</button>
 
                         </div>
                     </div>
