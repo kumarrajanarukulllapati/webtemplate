@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import architecture from '../images/architect.webp';
+// import PlanningComponent from './Planning';
 // import 
 
 class ArchitectureComponent extends Component {
@@ -47,25 +48,28 @@ class ArchitectureComponent extends Component {
                     </div>
 
                     <div >
-                        <div className='about' style={{ height: '600px' }}>
-                            <div className='about1' style={{ textAlign: 'center', color: 'white' }}>
+                        <div className='about' style={{ height: '500px' }}>
+                            <div className='about1' style={{ textAlign: 'center', justifyContent: 'center', color: 'white' }}>
                                 <h2>ABOUT US</h2>
                                 <h2>we  work at<br /> all the scales and in <br /> sectors</h2>
                             </div>
 
-                            <div className='about2' style={{ textAlign: 'center', color: 'white' }}>
+                            <div className='about2' style={{ textAlign: 'center', justifyContent: 'center', color: 'white' }}>
                                 <p> The future of how we live, work and <br /> play</p>
                                 <p> simple text. click to select the the text box.click again for <br /> double click to start editing the text</p>
                                 <p>look forward the future</p>
                                 <p> simple text. click to select the the text box.click again for <br /> double click to start editing the text</p>
-                                <div className='about3'>
-                                    <button style={{ backgroundColor: '#1f2851', color: 'white', border: '#1f2851', borderRadius: '12px', padding: '7px 15px', width: "100px" }}> learn more</button>
+
+                                <div className='about3' ><button style={{ backgroundColor: '#f6cf1a', color: '#090909', border: '#f6cf1a', borderRadius: '12px', padding: '7px 15px', width: "100px", margin: 'auto' }}> learn more</button>
                                 </div>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div >
+
         )
     }
 }
