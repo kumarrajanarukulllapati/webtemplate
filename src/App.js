@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import logo13234 from './images/icons.png';
+// import logo from './logo.svg';
+// import logo13234 from './images/icons.png';
 import './App.css';
 import Header from './components/Header';
 import ArchitectureComponent from './components/Architecture';
 import PlanningComponent from './components/Planning';
 import AboutComponent from './components/About';
+import DesignComponent from './components/design';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ArchitectureComponent />
       <PlanningComponent />
       <AboutComponent />
+      <DesignComponent />
     </div>
   );
 }
