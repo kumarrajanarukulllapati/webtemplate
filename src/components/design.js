@@ -15,7 +15,7 @@ class DesignComponent extends Component {
                 </div>
                 <div className="second">
                     <div className="designthree" >
-                        <img src={project} alt="data" style={{ height: '300px', width: '300px', border: '10px solid white', borderRadius: '50%', marginLeft: '480px', marginTop: '-50px' }} /> </div>
+                        <img src={project} alt="data" style={{ height: '300px', width: '300px', borderRadius: '50%', marginLeft: '480px', marginTop: '-50px' }} /> </div>
                 </div>
                 <div className="designfour" style={{ marginTop: '-300px', width: '300px', marginLeft: '900px', position: 'relative', backgroundColor: 'white' }}>
                     <img src={data} alt="data" style={{ height: '50px' }} />

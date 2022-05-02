@@ -31,7 +31,7 @@ position: relative;
     margin-top: -10px;
     }
     .block4 {
-      width:50%;
+      width:25%;
       /* height: 200px; */
       padding: 16px;
       background-color: white;
@@ -136,7 +136,7 @@ position: relative;
       .phase{
         display: flex;
         justify-content: space-between;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         position: relative;
       }
       .phase1{
@@ -180,4 +180,15 @@ position: relative;
         background-color: yellow;
         margin-top: -120px;
         
+      }
+      .Execute{
+      display: flex;
+      justify-content: space-between;
+        /* background-color: yellow; */
+        height: min-content;
+        width: 99%;
+      
+      }
+      .MuiFilledInput-root{
+        border-radius: 30px !important;
       }

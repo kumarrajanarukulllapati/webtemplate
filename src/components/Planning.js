@@ -12,7 +12,7 @@ class PlanningComponent extends Component {
                     </div>
                     <div className='planone' style={{ backgroundColor: 'yellow', height: '400px', width: '100%' }}></div>
                 </div>
-                <div className='plantwo' style={{ fontFamily: 'sans-serif', textAlign: 'center', borderRadius: '1px solid blue', backgroundColor: 'white', color: 'black', marginLeft: '800px', width: '400px' }}>
+                <div className='plantwo' style={{ fontFamily: 'sans-serif', textAlign: 'center', backgroundColor: 'white', color: 'black', marginLeft: '800px', width: '400px' }}>
                     <div>
                         <p style={{ textAlign: 'justify', width: '300px' }}> who are the best 100
                             architecture firms in the
@@ -23,6 +23,7 @@ class PlanningComponent extends Component {
                         <button style={{ backgroundColor: '#1f2851', color: 'white', border: '#f6cf1a', borderRadius: '12px', padding: '7px 15px', width: "100px", margin: 'auto' }}> learn more</button>
                     </div>
                 </div>
+
             </div>
         )
     }

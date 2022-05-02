@@ -6,6 +6,10 @@ import ArchitectureComponent from './components/Architecture';
 import PlanningComponent from './components/Planning';
 import AboutComponent from './components/About';
 import DesignComponent from './components/design';
+import ExecutionComponent from './components/Execution';
+import VisionComponent from './components/Vision';
+import FooterComponent from './components/Footer';
+import FinalComponent from './components/final';
 
 
 function App() {
@@ -16,6 +20,10 @@ function App() {
       <PlanningComponent />
       <AboutComponent />
       <DesignComponent />
+      <ExecutionComponent />
+      <VisionComponent />
+      <FooterComponent />
+      <FinalComponent />
     </div>
   );
 }
