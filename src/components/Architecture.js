@@ -48,7 +48,7 @@ class ArchitectureComponent extends Component {
                     </div>
 
                     <div >
-                        <div className='about' style={{ height: '500px' }}>
+                        <div className='about' style={{ minHeight: '500px' }}>
                             <div className='about1' style={{ textAlign: 'center', justifyContent: 'center', color: 'white' }}>
                                 <h2>ABOUT US</h2>
                                 <h2>we  work at<br /> all the scales and in <br /> sectors</h2>

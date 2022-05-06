@@ -10,57 +10,59 @@
  height: 700px;
 /* border: 1px solid green; */
 background-color: yellow;
-  
-}
 
-.block1 {
-width:50%;
-border-radius: 5px solid violet;
-margin-left: -300px;
-position: relative;
 }
+.block1 {
+  width:50%;
+  border-radius: 5px;
+  margin-left: -300px;
+  position: relative;
+  } 
 .block2 {
   width:50%;
-  border-radius: 5px solid violet;
+  border-radius: 5px ;
   margin-left: -80px;
   }
   .block3 {
     width:50%;
-    /* border-radius: 10px ; */
-    margin-left: -450px;
+    border-radius: 10px ; 
+     margin-left: -450px;
     margin-top: -10px;
     }
     .block4 {
-      width:25%;
-      /* height: 200px; */
+      width:33%;
+     height: 200px; 
       padding: 16px;
       background-color: white;
       margin-left: -80px;
       margin-top: -50px;
       border-radius: 10px;
       position: relative;
-      }
+      } 
       .mainarchitect{
-        display: flex;
-        flex-direction: column;
-        
+        /* display: flex; */
+        /* flex-direction:row; */
+        /* margin-top: 200px; */
+        /* border: 1px solid green; */
         min-height: 200px;
+        /* margin-top: -100px; */
         width: 100%;
       }
       .architect{
         display: flex;
         justify-content:space-between;
         margin:0 auto;
-        /* margin-right: 100px; */
-        height: 250px;
+         margin-right: 100px; 
+         height: 250px;
         width: 80%;
-        position:relative;
-        /* margin-top: -100px; */
-        /* border-radius: 10px; */
-        /* border: 1px solid green; */
+      
+        position:relative; 
+         margin-top: 0px; 
+         border-radius: 10px; 
+         /* border: 1px solid green;  */
 
-      }
-      .architect1{
+       } 
+       .architect1{
         border-radius: 10px;
         width: 300px;
         margin: 10px;
@@ -101,17 +103,16 @@ position: relative;
         display: flex;
         width: 100%;
         height:min-content;
-        /* flex-direction: column; */
-        /* border: 1px solid black; */
+        /* flex-direction: column;  */
+         border: 1px solid black;
         background-color: blue;
         margin-top: -100px;
         margin-bottom: 100px;
-        /* position: relative; */
+         /* position: relative;  */
         align-items: center;
         justify-content: space-evenly;
       }
       
-
       .planning{
         display: flex;
       justify-content: space-between;
@@ -126,13 +127,15 @@ position: relative;
       .plantwo{
         /* border: 2px solid green; */
         border-radius: 10px;
-        margin-left: 450px;
+        margin-left: 800px;
         margin-right: 400px;
         padding: 20px;
         margin-top: -120px;
         position: relative;
         background-color: white;
+       
       }
+      
       .phase{
         display: flex;
         justify-content: space-between;
@@ -165,7 +168,7 @@ position: relative;
         margin: auto;
         /* border: 1px solid green; */
         margin-left: 750px;
-        margin-top: -399px;
+        margin-top: -309px;
         position: relative;
       }
       .designer{
@@ -192,3 +195,117 @@ position: relative;
       .MuiFilledInput-root{
         border-radius: 30px !important;
       }
+@media screen and (max-width: 600px) {
+  .headerone{
+    margin: 0;
+    display:block;
+    min-height:500px;
+  }
+  .block1 {
+    position: relative;
+    width:100%;
+    border-radius: 5px;
+    margin-left: 0;
+    }
+    .block2 {
+      width:100%;
+      border-radius: 5px ;
+      margin: 0
+      }
+      .block3 {
+        width:100%;
+        /* border-radius: 10px ; */
+        
+        margin: 0;
+        }
+        .block4 {
+          position: relative;
+          width:100%;
+          /* height: 200px; */
+          padding: 16px;
+          background-color: white;
+          margin:0;
+          /* margin-top: -50px; */
+          border-radius: 10px;
+          
+          }
+          .mainarchitect{
+            display: flex;
+            flex-direction: column;
+           min-height: 300px;
+           margin-top: 50px;
+            width: 100%;
+          }
+          .architect{
+            display: flex;
+            /* justify-content:space-between; */
+            width: 100%;
+            flex-direction: inherit;
+            /* flex-direction: row; */
+            margin:0;
+             /* margin-right: 100px;  */
+             min-height: 250px;
+            position:relative; 
+             /* margin: 0px;  */
+             border-radius: 10px; 
+             /* border: 1px solid green;  */
+    
+           } 
+           .architect1{
+            border-radius: 10px;
+            width: 100%;
+            /* margin-top: 1500px; */
+            margin: 0;
+            background-color: white;
+            padding: 10px;
+            
+          }
+          .about{
+            display: flex;
+            width:100%;
+            flex-direction: column;
+            margin-top: 650px;
+            /* position: absolute; */
+          }
+          .planning{
+            display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          margin: 0;
+          width: 100%;
+          /* margin-left: -85%; */
+          position: relative;
+          /* border: 2px solid green; */
+          }
+          .plan{
+            width:100%;
+            background-color: yellow;
+            margin-top: 10px;
+            border: 0;
+            margin-left: -100px;
+                      }
+          /* .planone{
+width:100%;
+background-color: yellow;
+margin-left: -85%;
+          } */
+          .plantwo{
+          margin-top: -100px;
+              margin-left:'0px';
+            /* background-color:yellow; */
+    
+
+          }
+        }
+
+
+  
+     
+      
+     
+     
+      
+      
+      
+
+      
